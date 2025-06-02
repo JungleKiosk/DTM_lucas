@@ -1,6 +1,9 @@
 @use "./../../../node_modules/bootstrap/scss/bootstrap.scss";
 @use "./partials/_variables.scss" as *;
-
+@use "./partials/_navbar.scss" as *;
+@use "./app/_header.scss" as *;
+@use "./partials/_footer.scss" as *;
+@use "./colormode/_lMode.scss" as *;
 
 
 body {

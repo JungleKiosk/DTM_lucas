@@ -1,0 +1,22 @@
+@use "./../partials/_variables.scss" as *;
+
+body.light-mode {
+    background-color: $light2;
+    color: $txtlight;
+
+    #header {
+        background-color: $light3;
+        color: $bg_body2;
+    }
+
+    .container_filters_links {
+        background-color: $light2;
+        color: $bg_body2;
+    }
+
+    .container_filters_tools {
+        background-color: $light2;
+        color: $bg_body2;
+    }
+
+}
